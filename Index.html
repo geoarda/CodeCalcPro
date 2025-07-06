@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CodeCalcPro - Gelişmiş Hesap Makinesi</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" type="image/png" />
+</head>
+<body>
+  <header>
+    <h1>CodeCalcPro</h1>
+    <p class="developer">Developed by: <strong>Geoofy / Arda</strong></p>
+  </header>
+  <div class="calculator">
+    <div class="display">
+      <input type="text" id="calc-display" disabled />
+      <div class="mode-toggle">
+        <label>
+          <input type="checkbox" id="dark-mode-toggle" />
+          Dark Mode
+        </label>
+      </div>
+    </div>
+    <div class="buttons">
+      <button data-action="clear" class="btn-special">C</button>
+      <button data-action="memory-clear" class="btn-special">MC</button>
+      <button data-action="memory-recall" class="btn-special">MR</button>
+      <button data-action="memory-add" class="btn-special">M+</button>
+      <button data-action="memory-subtract" class="btn-special">M-</button>
+
+      <button data-action="percent">%</button>
+      <button data-action="divide">÷</button>
+
+      <button data-action="7">7</button>
+      <button data-action="8">8</button>
+      <button data-action="9">9</button>
+      <button data-action="multiply">×</button>
+
+      <button data-action="4">4</button>
+      <button data-action="5">5</button>
+      <button data-action="6">6</button>
+      <button data-action="subtract">−</button>
+
+      <button data-action="1">1</button>
+      <button data-action="2">2</button>
+      <button data-action="3">3</button>
+      <button data-action="add">+</button>
+
+      <button data-action="0" class="zero">0</button>
+      <button data-action="decimal">.</button>
+      <button data-action="equals">=</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
