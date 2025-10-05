@@ -1,4 +1,4 @@
-# CodeCalcPro - Gelişmiş Hesap Makinesi
+# CodeCalcPro - Gelişmiş Hesap Makinesi CODEDD//
 
 ![CodeCalcPro Logo](https://via.placeholder.com/300x100?text=CodeCalcPro)
 
